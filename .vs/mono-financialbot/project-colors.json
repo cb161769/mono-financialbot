@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "247df61a-8a4e-4daf-af8e-61f9284cc125": {
+      "ProjectGuid": "247df61a-8a4e-4daf-af8e-61f9284cc125",
+      "DisplayName": "mono-financialbot-backend-cs-datalayer",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
