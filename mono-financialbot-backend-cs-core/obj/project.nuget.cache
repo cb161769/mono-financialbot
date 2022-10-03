@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "VzsI7p23tIysGqcCM7l4ffYSPRv87CexEW9XNaOCB09N8Vo0IT6GcnShEfNuu4oIAEhoG3+n3zyobk0MjIqi7w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\clbrito\\source\\repos\\mono-financialbot\\mono-financialbot\\mono-financialbot-backend-cs-core\\mono-financialbot-backend-cs-core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\clbrito\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\clbrito\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

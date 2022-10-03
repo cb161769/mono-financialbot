@@ -1,0 +1,15 @@
+C:\Users\clbrito\source\repos\mono-financialbot\mono-financialbot\mono-financialbot-backend-bussiness-layer-cs\bin\Debug\net6.0\mono-financialbot-backend-bussiness-layer-cs.deps.json
+C:\Users\clbrito\source\repos\mono-financialbot\mono-financialbot\mono-financialbot-backend-bussiness-layer-cs\bin\Debug\net6.0\mono-financialbot-backend-bussiness-layer-cs.dll
+C:\Users\clbrito\source\repos\mono-financialbot\mono-financialbot\mono-financialbot-backend-bussiness-layer-cs\bin\Debug\net6.0\ref\mono-financialbot-backend-bussiness-layer-cs.dll
+C:\Users\clbrito\source\repos\mono-financialbot\mono-financialbot\mono-financialbot-backend-bussiness-layer-cs\bin\Debug\net6.0\mono-financialbot-backend-bussiness-layer-cs.pdb
+C:\Users\clbrito\source\repos\mono-financialbot\mono-financialbot\mono-financialbot-backend-bussiness-layer-cs\bin\Debug\net6.0\mono-financialbot-backend-cs-data-layer.dll
+C:\Users\clbrito\source\repos\mono-financialbot\mono-financialbot\mono-financialbot-backend-bussiness-layer-cs\bin\Debug\net6.0\mono-financialbot-backend-cs-data-layer.pdb
+C:\Users\clbrito\source\repos\mono-financialbot\mono-financialbot\mono-financialbot-backend-bussiness-layer-cs\obj\Debug\net6.0\mono-financialbot-backend-bussiness-layer-cs.csproj.AssemblyReference.cache
+C:\Users\clbrito\source\repos\mono-financialbot\mono-financialbot\mono-financialbot-backend-bussiness-layer-cs\obj\Debug\net6.0\mono-financialbot-backend-bussiness-layer-cs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\clbrito\source\repos\mono-financialbot\mono-financialbot\mono-financialbot-backend-bussiness-layer-cs\obj\Debug\net6.0\mono-financialbot-backend-bussiness-layer-cs.AssemblyInfoInputs.cache
+C:\Users\clbrito\source\repos\mono-financialbot\mono-financialbot\mono-financialbot-backend-bussiness-layer-cs\obj\Debug\net6.0\mono-financialbot-backend-bussiness-layer-cs.AssemblyInfo.cs
+C:\Users\clbrito\source\repos\mono-financialbot\mono-financialbot\mono-financialbot-backend-bussiness-layer-cs\obj\Debug\net6.0\mono-financialbot-backend-bussiness-layer-cs.csproj.CoreCompileInputs.cache
+C:\Users\clbrito\source\repos\mono-financialbot\mono-financialbot\mono-financialbot-backend-bussiness-layer-cs\obj\Debug\net6.0\mono-financialbot-backend-bussiness-layer-cs.csproj.CopyComplete
+C:\Users\clbrito\source\repos\mono-financialbot\mono-financialbot\mono-financialbot-backend-bussiness-layer-cs\obj\Debug\net6.0\mono-financialbot-backend-bussiness-layer-cs.dll
+C:\Users\clbrito\source\repos\mono-financialbot\mono-financialbot\mono-financialbot-backend-bussiness-layer-cs\obj\Debug\net6.0\ref\mono-financialbot-backend-bussiness-layer-cs.dll
+C:\Users\clbrito\source\repos\mono-financialbot\mono-financialbot\mono-financialbot-backend-bussiness-layer-cs\obj\Debug\net6.0\mono-financialbot-backend-bussiness-layer-cs.pdb

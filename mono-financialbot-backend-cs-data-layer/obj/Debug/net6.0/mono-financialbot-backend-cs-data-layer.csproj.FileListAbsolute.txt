@@ -1,0 +1,12 @@
+C:\Users\clbrito\source\repos\mono-financialbot\mono-financialbot\mono-financialbot-backend-cs-data-layer\bin\Debug\net6.0\mono-financialbot-backend-cs-data-layer.deps.json
+C:\Users\clbrito\source\repos\mono-financialbot\mono-financialbot\mono-financialbot-backend-cs-data-layer\bin\Debug\net6.0\mono-financialbot-backend-cs-data-layer.dll
+C:\Users\clbrito\source\repos\mono-financialbot\mono-financialbot\mono-financialbot-backend-cs-data-layer\bin\Debug\net6.0\ref\mono-financialbot-backend-cs-data-layer.dll
+C:\Users\clbrito\source\repos\mono-financialbot\mono-financialbot\mono-financialbot-backend-cs-data-layer\bin\Debug\net6.0\mono-financialbot-backend-cs-data-layer.pdb
+C:\Users\clbrito\source\repos\mono-financialbot\mono-financialbot\mono-financialbot-backend-cs-data-layer\obj\Debug\net6.0\mono-financialbot-backend-cs-data-layer.csproj.AssemblyReference.cache
+C:\Users\clbrito\source\repos\mono-financialbot\mono-financialbot\mono-financialbot-backend-cs-data-layer\obj\Debug\net6.0\mono-financialbot-backend-cs-data-layer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\clbrito\source\repos\mono-financialbot\mono-financialbot\mono-financialbot-backend-cs-data-layer\obj\Debug\net6.0\mono-financialbot-backend-cs-data-layer.AssemblyInfoInputs.cache
+C:\Users\clbrito\source\repos\mono-financialbot\mono-financialbot\mono-financialbot-backend-cs-data-layer\obj\Debug\net6.0\mono-financialbot-backend-cs-data-layer.AssemblyInfo.cs
+C:\Users\clbrito\source\repos\mono-financialbot\mono-financialbot\mono-financialbot-backend-cs-data-layer\obj\Debug\net6.0\mono-financialbot-backend-cs-data-layer.csproj.CoreCompileInputs.cache
+C:\Users\clbrito\source\repos\mono-financialbot\mono-financialbot\mono-financialbot-backend-cs-data-layer\obj\Debug\net6.0\mono-financialbot-backend-cs-data-layer.dll
+C:\Users\clbrito\source\repos\mono-financialbot\mono-financialbot\mono-financialbot-backend-cs-data-layer\obj\Debug\net6.0\ref\mono-financialbot-backend-cs-data-layer.dll
+C:\Users\clbrito\source\repos\mono-financialbot\mono-financialbot\mono-financialbot-backend-cs-data-layer\obj\Debug\net6.0\mono-financialbot-backend-cs-data-layer.pdb

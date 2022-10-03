@@ -3,11 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mono-financialbot-backend-cs-datalayer", "mono-financialbot-backend-cs-datalayer\mono-financialbot-backend-cs-datalayer.csproj", "{247DF61A-8A4E-4DAF-AF8E-61F9284CC125}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mono-financialbot-backend-cs-core", "mono-financialbot-backend-cs-core\mono-financialbot-backend-cs-core.csproj", "{EB00F2B7-C0C9-48DE-804B-BD8C4C1CE5BF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mono-financialbot-backend-bussiness-layer-cs", "mono-financialbot-backend-bussiness-layer-cs\mono-financialbot-backend-bussiness-layer-cs.csproj", "{1C9B2AB3-C10E-4606-85DB-DE317F368071}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mono-financialbot-backend-bussiness-layer-cs", "mono-financialbot-backend-bussiness-layer-cs\mono-financialbot-backend-bussiness-layer-cs.csproj", "{F683A7BD-3B43-4AAD-B6AE-693A301DE979}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mono-financialbot-backend-cs-external-serivces", "mono-financialbot-backend-cs-external-serivces\mono-financialbot-backend-cs-external-serivces.csproj", "{CC25FC7A-83CA-4B7E-B039-8112002A871D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mono-financialbot-backend-cs-data-layer", "mono-financialbot-backend-cs-data-layer\mono-financialbot-backend-cs-data-layer.csproj", "{951478D0-BCE3-431F-8ACD-FBD98E8655D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mono-financialbot-backend-cs-external-serivces-integration", "mono-financialbot-backend-cs-external-serivces-integration\mono-financialbot-backend-cs-external-serivces-integration.csproj", "{4D6AB9D8-6762-45A4-B8AA-51306885B90C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mono-financialbot-front-end-ts", "mono-financialbot-front-end-ts\mono-financialbot-front-end-ts.csproj", "{1373FE10-FC3B-46E8-908D-3BC421073E23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mono-financialbot-api-cs", "mono-financialbot-api-cs\mono-financialbot-api-cs.csproj", "{80C0D5D8-450F-4A4F-A329-E622AD9EA6A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +21,30 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{247DF61A-8A4E-4DAF-AF8E-61F9284CC125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{247DF61A-8A4E-4DAF-AF8E-61F9284CC125}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{247DF61A-8A4E-4DAF-AF8E-61F9284CC125}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{247DF61A-8A4E-4DAF-AF8E-61F9284CC125}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1C9B2AB3-C10E-4606-85DB-DE317F368071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1C9B2AB3-C10E-4606-85DB-DE317F368071}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1C9B2AB3-C10E-4606-85DB-DE317F368071}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1C9B2AB3-C10E-4606-85DB-DE317F368071}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CC25FC7A-83CA-4B7E-B039-8112002A871D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CC25FC7A-83CA-4B7E-B039-8112002A871D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CC25FC7A-83CA-4B7E-B039-8112002A871D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CC25FC7A-83CA-4B7E-B039-8112002A871D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB00F2B7-C0C9-48DE-804B-BD8C4C1CE5BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB00F2B7-C0C9-48DE-804B-BD8C4C1CE5BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB00F2B7-C0C9-48DE-804B-BD8C4C1CE5BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB00F2B7-C0C9-48DE-804B-BD8C4C1CE5BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F683A7BD-3B43-4AAD-B6AE-693A301DE979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F683A7BD-3B43-4AAD-B6AE-693A301DE979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F683A7BD-3B43-4AAD-B6AE-693A301DE979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F683A7BD-3B43-4AAD-B6AE-693A301DE979}.Release|Any CPU.Build.0 = Release|Any CPU
+		{951478D0-BCE3-431F-8ACD-FBD98E8655D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{951478D0-BCE3-431F-8ACD-FBD98E8655D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{951478D0-BCE3-431F-8ACD-FBD98E8655D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{951478D0-BCE3-431F-8ACD-FBD98E8655D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D6AB9D8-6762-45A4-B8AA-51306885B90C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D6AB9D8-6762-45A4-B8AA-51306885B90C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D6AB9D8-6762-45A4-B8AA-51306885B90C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D6AB9D8-6762-45A4-B8AA-51306885B90C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1373FE10-FC3B-46E8-908D-3BC421073E23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1373FE10-FC3B-46E8-908D-3BC421073E23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1373FE10-FC3B-46E8-908D-3BC421073E23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1373FE10-FC3B-46E8-908D-3BC421073E23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80C0D5D8-450F-4A4F-A329-E622AD9EA6A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80C0D5D8-450F-4A4F-A329-E622AD9EA6A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80C0D5D8-450F-4A4F-A329-E622AD9EA6A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80C0D5D8-450F-4A4F-A329-E622AD9EA6A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

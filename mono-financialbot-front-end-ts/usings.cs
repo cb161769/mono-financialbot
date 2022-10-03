@@ -1,0 +1,21 @@
+﻿#region Globals
+global using Microsoft.AspNetCore.Mvc;
+global using mono_financialbot_backend_bussiness_layer_cs.Dtos;
+global using mono_financialbot_backend_bussiness_layer_cs.Services;
+global using mono_financialbot_backend_cs_datalayer.Persistence.Context;
+global using mono_financialbot_backend_cs_datalayer.Mappings.Profiles;
+global using mono_financialbot_backend_cs_datalayer.Models.Users;
+global using Microsoft.EntityFrameworkCore;
+global using mono_financialbot_front_end_ts.Extensions;
+global using mono_financialbot_backend_bussiness_layer_cs.Interfaces;
+global using mono_financialbot_front_end_ts.Models;
+global using Microsoft.AspNetCore.Authentication.JwtBearer;
+global using Microsoft.IdentityModel.Tokens;
+global using System.Text;
+global using Microsoft.AspNetCore.SpaServices.AngularCli;
+global using mono_financialbot_backend_bussiness_layer_cs.Utils.JsonWebToken;
+global using  mono_financialbot_backend_cs_external_serivces.Providers.RabbitMQ.Interfaces;
+global using mono_financialbot_backend_cs_external_serivces.Providers.RabbitMQ.Models;
+global using mono_financialbot_backend_cs_external_serivces.Providers.RabbitMQ.Services;
+global using mono_financialbot_backend_cs_external_serivces.Providers.Hubs.Services;
+#endregion
