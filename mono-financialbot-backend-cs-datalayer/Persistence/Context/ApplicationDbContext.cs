@@ -25,5 +25,6 @@ namespace mono_financialbot_backend_cs_datalayer.Persistence.Context
             modelBuilder.ApplyConfiguration(new UserConfiguration());
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(BaseEFConfiguration<>).Assembly);
         }
+
     }
 }

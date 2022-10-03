@@ -2,6 +2,8 @@
 {
     public interface IRabbitMQReciever
     {
+
         void InitializeListeners();
+        Task HandleMessage(RabbitMQMessage message);
     }
 }

@@ -7,6 +7,7 @@ global using mono_financialbot_backend_cs_datalayer.Core.Models;
 global using System.ComponentModel.DataAnnotations.Schema;
 global using mono_financialbot_backend_cs_datalayer.Persistence.Context;
 global using System;
+global using Microsoft.EntityFrameworkCore.InMemory;
 global using System.Diagnostics;
 global using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 global using Microsoft.AspNetCore.Identity;

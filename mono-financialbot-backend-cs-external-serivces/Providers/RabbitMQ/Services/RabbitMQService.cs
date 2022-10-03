@@ -1,5 +1,6 @@
 ﻿
 
+
 namespace mono_financialbot_backend_cs_external_serivces.Providers.RabbitMQ.Services
 {
     public class RabbitMQService : IRabbitMQMessageSender
@@ -38,7 +39,7 @@ namespace mono_financialbot_backend_cs_external_serivces.Providers.RabbitMQ.Serv
             }
             catch (Exception e)
             {
-                _logger.LogError("an internal error has occurred wile checking if the connection was available, error", e);
+                _logger.LogError("an internal error has occurred while checking if the connection was available, error", e);
                 throw new Exception(e.Message);
             }
         }
