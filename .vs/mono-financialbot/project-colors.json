@@ -5,7 +5,17 @@
       "ProjectGuid": "247df61a-8a4e-4daf-af8e-61f9284cc125",
       "DisplayName": "mono-financialbot-backend-cs-datalayer",
       "ColorIndex": 0
+    },
+    "1c9b2ab3-c10e-4606-85db-de317f368071": {
+      "ProjectGuid": "1c9b2ab3-c10e-4606-85db-de317f368071",
+      "DisplayName": "mono-financialbot-backend-bussiness-layer-cs",
+      "ColorIndex": 1
+    },
+    "cc25fc7a-83ca-4b7e-b039-8112002a871d": {
+      "ProjectGuid": "cc25fc7a-83ca-4b7e-b039-8112002a871d",
+      "DisplayName": "mono-financialbot-backend-cs-external-serivces",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 3
 }
