@@ -45,7 +45,7 @@ docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3-manag
 ```
 
 
-2. Now you can run the application.
+2. Now you can run the application in the following URL: http://localhost:4200/.
 
 ---
 ## Usage
