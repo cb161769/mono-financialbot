@@ -6,7 +6,7 @@ import { Message } from '../models/message';
 import { Chatgroup } from '../models/chatgroup';
 import { environment } from '../../../environments/environment';
 import { AuthService } from './auth.service';
-import { getToken } from '../helpers/token';
+import { getToken } from '../Helpers/token';
 
 @Injectable({
   providedIn: 'root'

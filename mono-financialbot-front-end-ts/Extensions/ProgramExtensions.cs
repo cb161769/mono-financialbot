@@ -83,7 +83,7 @@ namespace mono_financialbot_front_end_ts.Extensions
                     ValidateIssuerSigningKey = true,
                     ValidIssuer = jwtSettings.GetSection("Issuer").Value,
                     ValidAudience = jwtSettings.GetSection("Audience").Value,
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings.GetSection("sKey").Value))
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings.GetSection("Key").Value))
                 };
             });
 
