@@ -2,6 +2,7 @@ C:\Users\clbrito\source\repos\mono-financialbot\mono-financialbot\mono-financial
 C:\Users\clbrito\source\repos\mono-financialbot\mono-financialbot\mono-financialbot-backend-cs-core\bin\Debug\net6.0\mono-financialbot-backend-cs-core.dll
 C:\Users\clbrito\source\repos\mono-financialbot\mono-financialbot\mono-financialbot-backend-cs-core\bin\Debug\net6.0\ref\mono-financialbot-backend-cs-core.dll
 C:\Users\clbrito\source\repos\mono-financialbot\mono-financialbot\mono-financialbot-backend-cs-core\bin\Debug\net6.0\mono-financialbot-backend-cs-core.pdb
+C:\Users\clbrito\source\repos\mono-financialbot\mono-financialbot\mono-financialbot-backend-cs-core\obj\Debug\net6.0\mono-financialbot-backend-cs-core.csproj.AssemblyReference.cache
 C:\Users\clbrito\source\repos\mono-financialbot\mono-financialbot\mono-financialbot-backend-cs-core\obj\Debug\net6.0\mono-financialbot-backend-cs-core.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\clbrito\source\repos\mono-financialbot\mono-financialbot\mono-financialbot-backend-cs-core\obj\Debug\net6.0\mono-financialbot-backend-cs-core.AssemblyInfoInputs.cache
 C:\Users\clbrito\source\repos\mono-financialbot\mono-financialbot\mono-financialbot-backend-cs-core\obj\Debug\net6.0\mono-financialbot-backend-cs-core.AssemblyInfo.cs
