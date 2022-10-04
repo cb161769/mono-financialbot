@@ -38,7 +38,14 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ClientApp\src\helpers\" />
+    <Folder Include="ClientApp\src\app\components\" />
+    <Folder Include="ClientApp\src\app\guards\" />
+    <Folder Include="ClientApp\src\app\shared\models\" />
+    <Folder Include="ClientApp\src\app\shared\constants\" />
+    <Folder Include="ClientApp\src\app\shared\Interceptors\" />
+    <Folder Include="ClientApp\src\app\shared\Helpers\" />
+    <Folder Include="ClientApp\src\app\shared\Routes\" />
+    <Folder Include="ClientApp\src\app\shared\services\" />
     <Folder Include="Controllers\Users\" />
   </ItemGroup>
 

@@ -1,34 +1,43 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { NavMenuComponent } from './nav-menu/nav-menu.component';
-import { HomeComponent } from './home/home.component';
-import { CounterComponent } from './counter/counter.component';
-import { FetchDataComponent } from './fetch-data/fetch-data.component';
-
+import { JwtModule } from '@auth0/angular-jwt';
+import { RegistrationComponent } from './components/registration/registration.component';
+import { SharedModule } from './shared/shared.module';
+import { ChatComponent } from './components/chat/chat.component';
+import { AccessComponent } from './components/access/access.component';
+import { routes } from './shared/Routes/routes';
+import { AuthGuard } from './guards/auth.guard';
+import { TokenInterceptor } from './shared/Interceptors/token.interceptor';
+import { getToken } from './shared/helpers/token';
 @NgModule({
   declarations: [
     AppComponent,
-    NavMenuComponent,
-    HomeComponent,
-    CounterComponent,
-    FetchDataComponent
+    RegistrationComponent,
+    ChatComponent,
+    AccessComponent,
+
   ],
   imports: [
-    BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
+    BrowserModule,
     HttpClientModule,
     FormsModule,
-    RouterModule.forRoot([
-      { path: '', component: HomeComponent, pathMatch: 'full' },
-      { path: 'counter', component: CounterComponent },
-      { path: 'fetch-data', component: FetchDataComponent },
-    ])
+    SharedModule,
+    RouterModule.forRoot(routes),
+    ReactiveFormsModule,
+    JwtModule.forRoot({
+      config: {
+        tokenGetter: getToken
+      }
+    }),
   ],
-  providers: [],
+  providers: [AuthGuard, {
+    provide: HTTP_INTERCEPTORS, useClass: TokenInterceptor, multi: true ,
+  }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
