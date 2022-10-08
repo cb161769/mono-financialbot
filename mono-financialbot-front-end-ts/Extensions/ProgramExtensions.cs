@@ -42,9 +42,7 @@ namespace mono_financialbot_front_end_ts.Extensions
         {
 
             services.AddScoped<IUser, UserService>();
-            services.AddScoped<JsonWebToken>();
-            services.AddSingleton<IRabbitMQMessageSender, RabbitMQService>();
-            services.AddHostedService<RabbitMQRecieverService>();
+            services.AddScoped<mono_financialbot_backend_bussiness_layer_cs.Utils.JsonWebToken.JsonWebToken>();
         }
         public static void AddSecurty(this IServiceCollection services, IConfiguration configuration)
         {
@@ -52,17 +50,8 @@ namespace mono_financialbot_front_end_ts.Extensions
             services.AddCors(options =>
             {
                 options.AddDefaultPolicy(builder => builder.WithOrigins(securitySettings.Cors));
-                options.AddDefaultPolicy(builder => builder.WithOrigins("http://localhost:4200"));
+                options.AddDefaultPolicy(builder => builder.WithOrigins("*"));
 
-                options.AddPolicy("AllowAllPolicy",
-                    builder =>
-                    {
-                        builder
-                        .WithOrigins("http://localhost:4200")
-                            .AllowAnyHeader()
-                            .AllowAnyMethod().AllowCredentials();
-
-                    });
             });
         }
 

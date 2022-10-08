@@ -5,6 +5,8 @@
 
 
 
+using mono_financialbot_backend_cs_external_serivces.Providers.Hubs.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 builder.Logging.ClearProviders();
 builder.Logging.AddConsole();
@@ -23,6 +25,13 @@ builder.Services.Configure<RabbitMQConfiguration>(configuration);
 builder.Services.AddSingleton<IBot, StockService>();
 builder.Services.AddSingleton<IRabbitMQMessageSender, RabbitMQService>();
 builder.Services.AddHostedService<RabbitMQRecieverService>();
+builder.Services.AddDataBaseConfiguration(builder.Configuration);
+builder.Services.AddSecurty(builder.Configuration);
+builder.Services.AddJsonWebTokenAuthentication(builder.Configuration);
+builder.Services.AddIdentityWrapper();
+builder.Services.AddControllers();
+builder.Services.AddAutomapperConfiguration();
+builder.Services.AddNewServices();
 #endregion
 var app = builder.Build();
 app.Logger.LogInformation("Services succesfully instantained");
@@ -34,12 +43,28 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
     app.UseDeveloperExceptionPage();
 }
-
-app.UseHttpsRedirection();
-
+app.UseStaticFiles();
+app.UseRouting();
+app.UseCors(builder =>
+builder.WithOrigins("http://localhost:4200")
+      .AllowAnyHeader()
+      .AllowAnyMethod()
+      .AllowCredentials());
+app.UseAuthentication();
 app.UseAuthorization();
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute(
+        name: "default",
+        pattern: "{controller}/{action=Index}/{id?}");
+    endpoints.MapHub<ChatService>("/hub/chat");
+});
 
 app.MapControllers();
+
+
+//app.UseAuthorization();
+
 app.Logger.LogInformation("Starting app");
 
 app.Run();

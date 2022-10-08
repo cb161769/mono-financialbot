@@ -9,7 +9,9 @@
     "build": "ng build",
     "build:ssr": "ng run mono_financialbot_front_end_ts:server:dev",
     "watch": "ng build --watch --configuration development",
+    "dev": "set ASPNETCORE_HTTPS_PORT=7186 && npm start",
     "test": "ng test"
+
   },
   "private": true,
   "dependencies": {

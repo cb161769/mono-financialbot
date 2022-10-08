@@ -7,17 +7,8 @@ builder.Logging.AddConsole();
 // Add services to the container.
 // Add services to the container.
 #region Configuration of services
-builder.Services.AddDataBaseConfiguration(builder.Configuration);
-builder.Services.AddIdentityWrapper();
-builder.Services.AddControllersWithViews();
-builder.Services.AddAutomapperConfiguration();
-builder.Services.AddNewServices();
-builder.Services.AddSignalR(opt => { opt.ClientTimeoutInterval = TimeSpan.FromMinutes(60); opt.KeepAliveInterval = TimeSpan.FromMinutes(30); }).AddJsonProtocol();
 
-builder.Services.AddSecurty(builder.Configuration);
-builder.Services.AddJsonWebTokenAuthentication(builder.Configuration);
-builder.Services.AddRabbitMQConfiguration(builder.Configuration);
-
+//builder.Services.AddCors("*");
 #endregion
 var app = builder.Build();
 
@@ -29,21 +20,11 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseStaticFiles();
-app.UseRouting();
-app.UseCors("AllowAllPolicy");
-app.UseAuthentication();
-app.UseAuthorization();
-app.UseEndpoints(endpoints =>
-{
-    endpoints.MapControllerRoute(
-        name: "default",
-        pattern: "{controller}/{action=Index}/{id?}");
-    endpoints.MapHub<ChatService>("/hub/chat");
-});
+//app.UseRouting();
+//app.UseCors("*");
+////app.UseAuthentication();
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller}/{action=Index}/{id?}");
+
 
 app.UseSpa(spa =>
 {

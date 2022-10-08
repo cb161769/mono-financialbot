@@ -30,7 +30,22 @@
       "ProjectGuid": "951478d0-bce3-431f-8acd-fbd98e8655d0",
       "DisplayName": "mono-financialbot-backend-cs-data-layer",
       "ColorIndex": 5
+    },
+    "1373fe10-fc3b-46e8-908d-3bc421073e23": {
+      "ProjectGuid": "1373fe10-fc3b-46e8-908d-3bc421073e23",
+      "DisplayName": "mono-financialbot-front-end-ts",
+      "ColorIndex": 6
+    },
+    "4d6ab9d8-6762-45a4-b8aa-51306885b90c": {
+      "ProjectGuid": "4d6ab9d8-6762-45a4-b8aa-51306885b90c",
+      "DisplayName": "mono-financialbot-backend-cs-external-serivces-integration",
+      "ColorIndex": 7
+    },
+    "80c0d5d8-450f-4a4f-a329-e622ad9ea6a2": {
+      "ProjectGuid": "80c0d5d8-450f-4a4f-a329-e622ad9ea6a2",
+      "DisplayName": "mono-financialbot-api-cs",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 9
 }

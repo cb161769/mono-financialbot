@@ -47,7 +47,8 @@ export class AccessComponent implements OnInit {
 
       this.router.navigateByUrl('/chat');
     }).catch((error: HttpErrorResponse) => {
-      alert(error.error.errorMessage);
+      console.log(error);
+      alert(error.error);
     });
   }
 

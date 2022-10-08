@@ -15,10 +15,11 @@ export class AuthService {
   private baseUrl: string = environment.BASE_URL;
   constructor(private http: HttpClient, private jwtHelper: JwtHelperService, private router: Router) { }
   register(request: Registration) {
-    return this.http.post<ResponseModel>(`${this.baseUrl}api/users/register`, request).toPromise();
+    return this.http.post<ResponseModel>(`${this.baseUrl}users/register`, request).toPromise();
   }
   login(request: Login) {
-    return this.http.post<ResponseModel>(`${this.baseUrl}api/users/login`, request).toPromise();
+    console.log(`${this.baseUrl}users/login`)
+    return this.http.post<ResponseModel>(`${this.baseUrl}users/login`, request).toPromise();
   }
   logout() {
     localStorage.removeItem(TOKEN);

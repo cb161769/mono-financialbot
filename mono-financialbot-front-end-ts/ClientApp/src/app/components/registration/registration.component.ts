@@ -46,11 +46,11 @@ export class RegistrationComponent implements OnInit {
       alert('Registered successfully!');
       this.router.navigateByUrl('/');
     }).catch((error: HttpErrorResponse) => {
-
-      if (error.error.errors.ConfirmPassword) {
-        alert(error.error.errors.ConfirmPassword[0]);
+      console.log(error);
+      if (error) {
+        alert(error);
       } else {
-        alert(error.error.errors);
+        alert("an internal error has occurred");
       }
     });
   }

@@ -2,7 +2,7 @@
 
 namespace mono_financialbot_front_end_ts.Controllers.Users
 {
-    [Route("api/users")]
+    [Route("users")]
     public class UsersController : Controller
     {
         private readonly IUser _userService;
