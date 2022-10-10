@@ -81,8 +81,10 @@ namespace mono_financialbot_backend_bussiness_layer_cs.Services
             try
             {
                 _logger.LogInformation($" start process to register username: {input.UserName} ");
-
-                var user = _mapper.Map<User>(input);
+                User user = new User();
+                user.UserName = input.UserName;
+                user.Email = "email@gmail.com";
+                //var user = _mapper.Map<User>(user);
                 _logger.LogInformation($" succesfully mapped information related to user: {input.UserName} ");
                 IdentityResult result = await _userManager.CreateAsync(user, input.Password);
                 if (!result.Succeeded)

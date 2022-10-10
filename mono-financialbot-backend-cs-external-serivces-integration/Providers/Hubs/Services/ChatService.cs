@@ -156,7 +156,7 @@ namespace mono_financialbot_backend_cs_external_serivces.Providers.Hubs.Services
                 if (!connectedUsers)
                 {
                     _logger.LogInformation("[connectedUsers] was identified, proceed to add users to list");
-                    _connectedUsers.Add(new ChatUsers { ConnectionId = new Guid(connectionId), username = user });
+                    _connectedUsers.Add(new ChatUsers { ConnectionId = connectionId, username = user });
                     _logger.LogInformation("user {user} added to list, proceed to notify information to rabbitMQ");
                     Clients.All.SendAsync(Events.UsersChanged, _connectedUsers);
                     _logger.LogInformation("event 'User changed' was sent to rabbitMQ succesfully");

@@ -1,5 +1,4 @@
 ﻿
-
 namespace mono_financialbot_backend_cs_datalayer.Mappings.Profiles
 {
     public class CommonProfile: Profile
@@ -8,6 +7,7 @@ namespace mono_financialbot_backend_cs_datalayer.Mappings.Profiles
         {
             #region UserProfile
             CreateMap<User, UserDto>().ReverseMap();
+          //  CreateMap<User,>
             #endregion
         }
     }

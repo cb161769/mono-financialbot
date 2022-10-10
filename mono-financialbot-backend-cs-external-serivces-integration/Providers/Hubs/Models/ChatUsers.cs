@@ -2,7 +2,7 @@
 {
     public class ChatUsers
     {
-        public Guid ConnectionId { get; set; }
+        public string ConnectionId { get; set; }
 
         public string username { get; set; }
     }

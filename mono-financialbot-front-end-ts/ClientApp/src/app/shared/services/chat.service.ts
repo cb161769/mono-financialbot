@@ -1,12 +1,12 @@
-import { EventEmitter, Injectable } from '@angular/core';
 import { HttpErrorResponse } from '@angular/common/http';
+import { EventEmitter, Injectable } from '@angular/core';
 import * as signalR from '@microsoft/signalr';
-import { User } from '../models/user';
-import { Message } from '../models/message';
-import { Chatgroup } from '../models/chatgroup';
 import { environment } from '../../../environments/environment';
-import { AuthService } from './auth.service';
 import { getToken } from '../Helpers/token';
+import { Chatgroup } from '../models/chatgroup';
+import { Message } from '../models/message';
+import { User } from '../models/user';
+import { AuthService } from './auth.service';
 
 @Injectable({
   providedIn: 'root'
